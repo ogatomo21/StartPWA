@@ -1,0 +1,13 @@
+.url-container{
+    display: flex;
+    align-items: center;
+}
+
+#url{
+    max-width: 512px;
+    border-radius: 0;
+}
+
+.button{
+    border-radius: 0;
+}

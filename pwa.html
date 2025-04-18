@@ -6,9 +6,20 @@
     <title>StartPWA</title>
     <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./pwa.css">
+    <script src="./pwa.js"></script>
 </head>
 <body class="m-5">
     <h1 class="title">StartPWA</h1>
+    <p class="subtitle">by @ogatomo21</p>
+    <div class="card">
+        <div class="card-content">
+            <div class="url-container">
+                <input type="url" class="input" id="url" placeholder="https://google.com">
+                <button class="button is-link" id="go">GO!</button>
+            </div>
+        </div>
+    </div>
     <div class="buttons">
     <a href="https://google.com" class="button">Google</a>
     <a href="https://yahoo.co.jp" class="button">Yahoo!Japan</a>
@@ -16,7 +27,7 @@
     <a href="https://discord.com" class="button">Discord</a>
     <a href="https://notion.so" class="button">Notion</a>
     <a href="https://chatgpt.com" class="button">ChatGPT</a>
-    <a href="https://perplexity.com" class="button">Perplexity</a>
+    <a href="https://perplexity.ai" class="button">Perplexity</a>
     <a href="https://gemini.google.com" class="button">Gemini</a>
     <a href="https://outlook.live.com" class="button">Outlook</a>
     </div>
