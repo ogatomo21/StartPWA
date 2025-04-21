@@ -5,7 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const goURL = () => {
         const getURL = url.value;
         if(getURL !== '') {
-            window.location.href = getURL;
+            if(getURL.startsWith('http://') || getURL.startsWith('https://')) {
+                window.location.href = getURL;
+            }else{
+                window.location.href = 'http://' + getURL;
+            }
         }else{
             window.location.reload();
         }
